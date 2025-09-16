@@ -1,6 +1,5 @@
-
 export interface AnalysisResult {
-  matchPercentage: number;
+  matchPercentage: number; // now represents ATS score
   summary: string;
   matchingSkills: string[];
   missingSkills: string[];
